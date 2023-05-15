@@ -1,0 +1,5 @@
+com\nopcommerce\demo\runner\TestRunnerSmoke.class
+com\nopcommerce\demo\steps\Hooks.class
+com\nopcommerce\demo\runner\TestRunnerRegression.class
+com\nopcommerce\demo\AppTest.class
+com\nopcommerce\demo\runner\TestRunnerSanity.class
