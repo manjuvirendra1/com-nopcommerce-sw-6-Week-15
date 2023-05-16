@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CellPhonePage extends Utility {
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(CellPhonePage.class.getName());
     public CellPhonePage(){
         PageFactory.initElements(driver, this);
     }
