@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ShoppingCartPage extends Utility {
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(ShoppingCartPage.class.getName());
     public ShoppingCartPage(){
         PageFactory.initElements(driver, this);
     }
