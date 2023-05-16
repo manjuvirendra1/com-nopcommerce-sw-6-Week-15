@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ElectronicsPage extends Utility{
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(ElectronicsPage.class.getName());
     public ElectronicsPage(){
         PageFactory.initElements(driver, this);
     }
