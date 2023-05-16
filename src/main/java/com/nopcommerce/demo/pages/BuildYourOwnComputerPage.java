@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BuildYourOwnComputerPage extends Utility{
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(BuildYourOwnComputerPage.class.getName());
 
     public BuildYourOwnComputerPage()
     {
