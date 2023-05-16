@@ -21,7 +21,7 @@ public class TestRunnerRegression {
     public static void setup() {
 
         String projectPath = System.getProperty("user.dir");
-        String reportConfigPath = projectPath + "src/test/java/resources/extentreport/extent-config.xml";
+        String reportConfigPath = projectPath + "/src/test/java/resources/extentreport/extent-config.xml";
         Reporter.loadXMLConfig(reportConfigPath);
         Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
         Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
